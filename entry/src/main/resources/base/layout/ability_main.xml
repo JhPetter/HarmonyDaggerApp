@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:textWeather"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_size="17vp"
+        ohos:text_alignment="center"/>
+
+    <Button
+        ohos:id="$+id:btnStart"
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:background_element="$graphic:button_bg"
+        ohos:text="$string:start"
+        />
+
+</DirectionalLayout>
